@@ -1,0 +1,14 @@
+form{
+	background-color: rgba(255,255,255, .9);
+}
+h1 {text-align: center;
+		color: black;
+		font-size:60px; 
+		background-color: rgba(41,219,189,0.3); 
+	}
+
+	body {background-color: pink;	
+		background-image:url('Images/rad3.jpg'); 
+		background-repeat: no-repeat;
+		//background-size:3000px;
+	}
