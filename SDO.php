@@ -25,7 +25,7 @@
 				<label for="validationCustom02">Data di nascita</label>
 				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una data di nascita valida.
+					Inserire una Data di nascita valida.
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 					<label for="validationCustom01">Codice Fiscale</label>
 					<input type="text" class="form-control" id="validationCustom01" placeholder="Codice Fiscale" minlength="2" required> 
 					<div class="invalid-feedback">
-						Inserire una Codice Fiscale valida.
+						Inserire un Codice Fiscale valido.
 					</div>
 				</div>
 		
@@ -81,9 +81,9 @@
 		<div class="row">
 		<div class="col-md-4 mb-3">
 				<label for="validationCustom02">Data di ricovero</label>
-				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
+				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di ricovero" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una data di ricovero valida.
+					Inserire una Data di ricovero valida.
 				</div>
 			</div>
 		</div>
@@ -164,7 +164,7 @@
 				<label for="validationCustom02">Data di dimissione</label>
 				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una data di dimissione valida.
+					Inserire una Data di dimissione valida.
 				</div>
 			</div>
 			<div class="col-md-6 mb-3">

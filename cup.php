@@ -25,7 +25,7 @@
 				<label for="validationCustom02">Data di nascita</label>
 				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una data di nascita valida.
+					Inserire una Data di nascita valida.
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 				<label for="validationCustom01">Codice Fiscale</label>
 				<input type="text" class="form-control" id="validationCustom01" placeholder="Codice Fiscale" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una Codice Fiscale valida.
+					Inserire un Codice Fiscale valido.
 				</div>
 			</div>
 			<div class="col-md-4 mb-3">
@@ -94,9 +94,9 @@
 		<div class="row">
 			<div class="col-md-4 mb-3">
 				<label for="validationCustom02">Data di prenotazione</label>
-				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
+				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di prenotazione" minlength="2" required> 
 				<div class="invalid-feedback">
-					Inserire una data di prenotazione valida.
+					Inserire una Data di prenotazione valida.
 				</div>
 			</div>
 		</div>
