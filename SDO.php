@@ -88,6 +88,53 @@
 			</div>
 		</div>
 <div class="row">
+			<div class="col-md-6 mb-3">
+				<label for="validationCustom01">Struttura Ospedaliera</label>
+				<div class="form-check">
+					<label class="form-check-label">
+
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+						Brotzu
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Policlinico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Oncologico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Microcitemico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Marino
+					</label>
+				</div>
+			</div>
+<div class="col-md-6 mb-3">
+				<label for="validationCustom05">Reparto</label>
+				<select class="form-control" id="exampleFormControlSelect2">
+					<option>Ortopedia</option>
+					<option>Chirurgia</option>
+					<option>Neurologia</option>
+					<option>Oncologia</option>
+		            <option>Medicina generale</option>
+                    <option>Ginecologia</option>
+        </select>
+		</div>
+</div>
+<div class="row">
 		<div class="col-md-6 mb-3">
 				<label for="validationCustom05">Diagnosi principale</label>
 				<select class="form-control" id="exampleFormControlSelect2">

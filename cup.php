@@ -33,17 +33,17 @@
 			<div class="col-md-7">
 				<label>Sesso:</label>
 				<label class="custom-control custom-radio">
-  <input id="radio1" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">Maschio</span>
-</label>
-<label class="custom-control custom-radio">
-  <input id="radio2" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">Femmina</span>
-</label>
+					<input id="radio1" name="radio" type="radio" class="custom-control-input">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Maschio</span>
+				</label>
+				<label class="custom-control custom-radio">
+					<input id="radio2" name="radio" type="radio" class="custom-control-input">
+					<span class="custom-control-indicator"></span>
+					<span class="custom-control-description">Femmina</span>
+				</label>
 			</div>
-		
+
 		</div>
 		<div class="row">
 			<div class="col-md-4 mb-3">
@@ -67,16 +67,16 @@
 					Inserire un CAP valido.
 				</div>
 			</div>
-			</div>
-			<div class="row">	
-				<div class="col-md-4 mb-3">
-					<label for="validationCustom01">Codice Fiscale</label>
-					<input type="text" class="form-control" id="validationCustom01" placeholder="Codice Fiscale" minlength="2" required> 
-					<div class="invalid-feedback">
-						Inserire una Codice Fiscale valida.
-					</div>
+		</div>
+		<div class="row">	
+			<div class="col-md-4 mb-3">
+				<label for="validationCustom01">Codice Fiscale</label>
+				<input type="text" class="form-control" id="validationCustom01" placeholder="Codice Fiscale" minlength="2" required> 
+				<div class="invalid-feedback">
+					Inserire una Codice Fiscale valida.
 				</div>
-		<div class="col-md-4 mb-3">
+			</div>
+			<div class="col-md-4 mb-3">
 				<label for="validationCustom05">Telefono</label>
 				<input type="number" class="form-control" id="validationCustom05" placeholder="Inserire un numero di telefono" required>
 				<div class="invalid-feedback">
@@ -92,7 +92,7 @@
 			</div>
 		</div>
 		<div class="row">
-		<div class="col-md-4 mb-3">
+			<div class="col-md-4 mb-3">
 				<label for="validationCustom02">Data di prenotazione</label>
 				<input type="text" class="form-control" id="validationCustom02" placeholder="Data di nascita" minlength="2" required> 
 				<div class="invalid-feedback">
@@ -100,22 +100,56 @@
 				</div>
 			</div>
 		</div>
-<div class="row">
-		<div class="col-md-4 mb-3">
+		<div class="row">
+			<div class="col-md-4 mb-3">
 				<label for="validationCustom05">Tipo di Esame</label>
 				<select class="form-control" id="exampleFormControlSelect2">
 					<option>Visita neurologica</option>
 					<option>Visita cardiologica</option>
 					<option>Visita ortopedica</option>
 					<option>Visita allergologica</option>
-		</select>
+				</select>
+			</div>
 		</div>
-		</div>
-		
-		
-		<button class="btn btn-primary" type="submit">Conferma</button>
-	</form>
-	<?php include('script.php'); ?>
+		<div class="row">
+			<div class="col-md-4 mb-3">
+				<label for="validationCustom01">Struttura Ospedaliera</label>
+				<div class="form-check">
+					<label class="form-check-label">
 
-</body>
-</html>
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+						Brotzu
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Policlinico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Oncologico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Microcitemico
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Marino
+					</label>
+				</div>
+			</div>
+</div>
+				<button class="btn btn-primary" type="submit">Conferma</button>
+			</form>
+			<?php include('script.php'); ?>
+
+		</body>
+		</html>

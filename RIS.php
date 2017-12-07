@@ -116,7 +116,66 @@
 		</div>
 		
 		</div>
-		
+		<div class="row">
+			<div class="col-md-4 mb-3">
+				<label for="validationCustom01">Distretto anatomico</label>
+				<div class="form-check">
+					<label class="form-check-label">
+
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+						Cranio
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Colonna
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Polso
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Mano
+					</label>
+				</div>
+							<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Addome
+					</label>
+				</div>
+			<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Torace
+					</label>
+				</div>
+			<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Spalla
+					</label>
+				</div>
+			<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Pelvi
+					</label>
+				</div>
+			<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+						Ginocchio
+					</label>
+				</div>
+			</div>
+</div>
 		<button class="btn btn-primary" type="submit">Conferma</button>
 	</form>
 	<?php include('script.php'); ?>
